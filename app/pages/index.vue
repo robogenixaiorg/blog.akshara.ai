@@ -4,7 +4,7 @@
       <div class="flex flex-col w-full xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
         <div v-html="$md.render(welcomeText)" class="home__welcome markdown" />
 
-        <div class="mb-12 xl:mb-0">
+        <!-- <div class="mb-12 xl:mb-0">
           <h4 v-if="isSignedUp">Thank you - we'll be in touch shortly.</h4>
 
           <form
@@ -31,14 +31,17 @@
               Sign Up
             </button>
           </form>
+        </div> -->
+        <div class="mb-12 xl:mb-0 my-4">
+          <a href="https://akshara.ai/">
+            <button class="px-6 py-2 text-semibold text-white rounded-md bg-blue-700">
+              Visit Akshara
+            </button>
+          </a>
         </div>
       </div>
       <div class="flex flex-col w-full xl:w-2/5">
-        <img
-          alt="Hero"
-          class="rounded shadow-xl"
-          src="https://source.unsplash.com/random/720x400"
-        />
+        <img alt="Hero" class="" src="/images/uploads/heroImage.png" />
       </div>
     </div>
   </section>
